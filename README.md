@@ -6,8 +6,8 @@ Official developer documentation for [PayNext](https://paynext.one) — availabl
 
 | Language | URL |
 |----------|-----|
-| 🇬🇧 English | [View English Docs](https://paynext.github.io/paynext-docs/paynext-docs-en.html) |
-| 🇸🇦 Arabic  | [View Arabic Docs](https://paynext.github.io/paynext-docs/paynext-docs-ar.html) |
+| 🇬🇧 English | [View English Docs](https://docs.paynext.one/paynext-docs-en.html) |
+| 🇸🇦 Arabic  | [View Arabic Docs](https://docs.paynext.one/paynext-docs-ar.html) |
 
 ## What's Covered
 
@@ -25,8 +25,8 @@ Official developer documentation for [PayNext](https://paynext.one) — availabl
 
 | SDK | Repository |
 |-----|------------|
-| JavaScript (Node.js / Next.js) | [paynext-sdk-js](https://github.com/paynext/paynext-sdk-js) |
-| PHP / Laravel | [paynext-sdk-php](https://github.com/paynext/paynext-sdk-php) |
+| JavaScript (Node.js / Next.js) | [paynext-sdk-js](https://github.com/paynextone/paynext-sdk-js) |
+| PHP / Laravel | [paynext-sdk-php](https://github.com/paynextone/paynext-sdk-php) |
 
 ## Files
 
@@ -34,3 +34,27 @@ Official developer documentation for [PayNext](https://paynext.one) — availabl
 |------|-------------|
 | `paynext-docs-en.html` | English documentation |
 | `paynext-docs-ar.html` | Arabic documentation (RTL) |
+```
+
+5. Click **Commit changes**
+
+---
+
+## Also update the HTML files
+
+The cross-links inside the HTML files also point to the wrong URL. Go to each file and update:
+
+**In `paynext-docs-en.html`** → find this line and update it:
+```
+href="paynext-docs-ar.html"
+```
+✅ This is already correct — no change needed, relative links work automatically.
+
+**In `paynext-docs-ar.html`** → same, already correct.
+
+---
+
+## Your correct URLs are:
+```
+https://docs.paynext.one/paynext-docs-en.html
+https://docs.paynext.one/paynext-docs-ar.html
